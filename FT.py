@@ -6,6 +6,7 @@ from googleapiclient.errors import HttpError
 DEVELOPER_KEY = 'DEVELOPER KEY'
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
+print("Hello")
 
 def pafy_video(video_id):
     url = 'https://www.youtube.com/watch?v={0}'.format(video_id)
